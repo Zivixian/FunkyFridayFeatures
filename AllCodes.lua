@@ -8,6 +8,8 @@ local args = {
     }
 }
 
+game:GetService("ReplicatedStorage").RF:InvokeServer(unpack(args))
+
 local args = {
     [1] = {
         [1] = "Server",
