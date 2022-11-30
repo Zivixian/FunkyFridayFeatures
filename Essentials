@@ -80,7 +80,7 @@ Tab2:AddButton({
 Tab2:AddButton({
 	Name = "Redeem All Codes",
 	Callback = function()
-       	loadstring(game:HttpGetAsync("https://pastebin.com/raw/HisbjQMD", true))()
+       	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Zivixian/FunkyFriday/main/AllCodes", true))()
   	end    
 })
 
