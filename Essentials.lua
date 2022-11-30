@@ -91,4 +91,9 @@ Tab2:AddButton({
   	end    
 })
 
+Tab2:AddLabel("Aus_si notes can be obtained using Wally's script. (Which also makes almost everything in this script functional.)")
+
+
+})
+
 end
