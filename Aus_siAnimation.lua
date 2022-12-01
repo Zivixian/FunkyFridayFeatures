@@ -9,7 +9,7 @@ local args = {
         }
     }
 
-game:GetService("ReplicatedStorage").RF:InvokeServer(unpack(args))
+    game:GetService("ReplicatedStorage").RF:InvokeServer(unpack(args))
 
 local args = {
         [1] = {
@@ -22,4 +22,4 @@ local args = {
         }
     }
 
-game:GetService("ReplicatedStorage").RF:InvokeServer(unpack(args))
+    game:GetService("ReplicatedStorage").RF:InvokeServer(unpack(args))
